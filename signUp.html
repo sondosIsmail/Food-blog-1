@@ -4,26 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/signUp.css">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Tangerine">
+    
+    <link href="img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
     <title> SignUp </title>
 </head>
 <body>
+    <!-- start navbar -->
+<div class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">DISH A <span>DAY</span></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="team.html" class="nav-item nav-link">Chef</a>
+                <a href="category.html" class="nav-item nav-link">Category</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Nav Bar End -->
     <div class="container">
      <section>
     
      <div class="input"> 
-        <h1>  Welcome SignUp!  </h1>
+        <h1 id ="h1">  Welcome SignUp!  </h1>
           
         <!-- <label for="Eman ">user name </label> <br>  -->
-        <input type="text" placeholder="Enter Username"> <br>
+        <input id ="input" type="text" placeholder="Enter Username"> <br>
         <!-- <label for="Eman "> Enter your Email</label> <br> -->
-        <input type="text" placeholder="Enter your Email" >  <br>
+        <input type="text" id ="input" placeholder="Enter your Email" >  <br>
         <!-- <label for="Eman "> Enter your password</label> <br> -->
-        <input type="password"  placeholder="Enter your password"> <br>
+        <input type="password"  id ="input" placeholder="Enter your password"> <br>
         <!-- <label for="Eman ">  confirm your password</label> <br> -->
-        <input type="password" placeholder="confirm your password"> <br> 
-        <button> Sign-up </button>
+        <input type="password" id ="input" placeholder="confirm your password"> <br> 
+        <button id ="signup"> Sign-up </button>
     </div>
 
 <div class="img"> 
@@ -34,5 +63,16 @@
      </section>
 
     </div>
+    <!-- Footer Start -->
+<div class="footer">
+
+    <div class="copyright">
+        <div class="container">
+            <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+            <p>Designed By <a href="#">Student</a></p>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
 </body>
 </html>
