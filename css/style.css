@@ -207,7 +207,13 @@ a:focus {
         box-shadow: none;
     }
 }
+.btn
+{
+ 
+padding:20px;
+margin-top: -12px;  
 
+}
 
 /**********  CSS ***********/
 .carousel {
