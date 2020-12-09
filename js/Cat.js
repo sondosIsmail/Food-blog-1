@@ -10,5 +10,9 @@ function myFunction(imgs) {
     imgText.appendChild(p)
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "block";
+    h.style.color= "#fbaf32";
+    h.style.padding="5px"
+    p.style.padding = "10px";
+    p.style.lineHeight = "1.5"
 
   }
