@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+html,body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  .container {
+    max-width: 1250px;
+    margin: 30px auto 30px;
+    padding: 0 !important;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+  }
+  
+  header {
+    background: #eee;
+    /* background-image: url(""); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     background-color: #FFC107; 
+    height: 250px;
+  }
+  
+  header i {
+    position: relative;
+    cursor: pointer;
+    right: -96%;
+    top: 25px;
+    font-size: 18px !important;
+    /* color: #fff; */
+  } 
+  
+  @media (max-width:800px) {
+    header {
+      height: 150px;
+    } 
+    
+    header i {
+      right: -90%;
+    }
+  }
+  
+  main {
+        padding: 20px 20px 0px 20px;
+  }
+  #CAta
+  {
+      text-decoration: none;
+      color: #FFC107;
+      
+  }
+  #CAta:hover
+  {
+      color: honeydew;
+  }
+
+  
+  .left {
+    display: flex;
+  align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin-top: -120px;
+    border-radius: 100px;
+    border: 4px solid #fff;
+    float: left;
+  }
+  
+  /* .active {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: calc(50% - 70px);
+    top: 75px;
+    background-color: #FFC107;
+    border: 3px solid #fff;
+  } */
+  
+  @media (max-width:990px) {
+    .active {
+      right: calc(50% - 60px);
+      top: 50px;
+    } 
+  }
+  
+  .name {
+    margin-top:5px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18pt;
+    color: black;
+    margin-bottom: -20px;
+  }
+  
+  .info,.info1 {
+    margin-top: -20px; 
+    /* margin-bottom: 5px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: #777;
+  }
+  
+  .stats {
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+  }
+  
+  
+  .number-stat {
+    padding: 0px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e9135;
+   
+  }
+  
+  .desc-stat {
+    /* margin-top: -15px; */
+    font-size: 10pt;
+    color: #FFC107;
+    margin: 12px;
+  }
+  
+  .desc {
+    text-align: center;
+    margin-top: 25px;
+    margin: 25px 40px;
+    color: #999;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: "Open Sans";
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ededed;
+  }
+  
+   .right {
+    padding: 0 25px 0 25px !important;
+  } 
+  
+  .nav {
+    display: inline-flex;
+    margin-top: -200px;
+  }
+  
+  .nav li {
+    margin: 40px 30px 0 10px;
+    cursor: pointer;
+    font-size: 13pt;
+    font-weight: bold;
+    list-style: none;
+
+  } 
+  
+   .nav li:hover, .nav li:nth-child(1)  { 
+    
+background-color: green;
+    color:white;
+    padding: 17px;
+    margin-top: 20px;
+
+  } 
+ 
+  
+  .follow {
+    position: absolute;
+    right: 8%;
+    top: 35px;
+    font-size: 11pt;
+    background-color: #0e9135;
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all .4s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  
+  .follow:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  @media (max-width:990px) {
+    .nav {
+      display: none;
+    }
+    
+    .follow {
+      width: 50%;
+      margin-left: 25%;
+      display: block;
+      position: unset;
+      text-align: center;
+    }
+  }
+  
+  .wrapper {
+    background: #fff;
+    max-width: 400px;
+    position: relative;
+  
+    margin: 20px auto;
+     box-shadow: 0px 0px 10px 5px #5d5d69;
+   
+}
+.Card
+{
+    display: flex;
+    right:30%;
+}
+
+    .header1 {
+       min-height: 250px;
+       background: url("https://static.pexels.com/photos/5928/salad-healthy-diet-spinach.jpg") no-repeat center;
+       opacity: 0.9;
+       background-size: cover;
+    }
+     .header2
+    {
+        min-height: 250px;
+        background: url("../img/checken.jpg") no-repeat center;
+        opacity: 0.9;
+        background-size: cover;
+
+    }
+
+    .name {
+       font-size: 1.4em;
+       text-align: center;
+       letter-spacing: 0.1em;
+       text-transform: uppercase;
+       padding: 20px;
+    }
+
+    .info {
+       margin-top: -11px;
+       font-weight: 700;
+       letter-spacing: 0.1em;
+       padding: 30px;
+    }
