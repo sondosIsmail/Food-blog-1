@@ -1,0 +1,73 @@
+* {
+
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+
+}
+
+
+.container 
+{
+    display: flex;
+ 
+
+}
+.input 
+{ 
+ margin-top: 100px;
+background-color: #FBAF32;
+padding: 100px;
+justify-content: flex-start;
+ 
+}
+#h1
+{
+    margin-bottom: 20px;
+    font-family: 'Tangerine', serif;
+    font-size: 45px;
+    color:   white;
+    text-shadow: 5px 4px 4px #aaa;
+}
+h1:hover
+{
+
+   color:   white;
+    cursor: pointer;
+}
+#input
+{
+    width: 100%;
+    padding: 8px 14px;
+    margin: 10px ;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid  white;
+    border-radius: 3px;
+    outline: none;
+  
+}
+#signup
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.img 
+{
+   align-items: center;
+    margin-left: 390px;
+   position: absolute;
+   margin-top: -530px;
+  
+    
+}
